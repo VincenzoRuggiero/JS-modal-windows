@@ -12,3 +12,8 @@ for (let i = 0; i < btnsOpenModal.length; i++) {
     console.log("button clicked");
   });
 }
+
+btnCloseModal.addEventListener("click", function () {
+  modal.classList.add("hidden");
+  overlay.classList.add("hidden");
+});
