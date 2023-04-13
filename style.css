@@ -44,6 +44,12 @@ body {
   background: none;
 }
 
+.close-modal:hover {
+  color: #fc3153;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
 h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
